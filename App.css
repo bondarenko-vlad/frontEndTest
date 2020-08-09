@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Rowdies:wght@300&display=swap');
+.App {
+  text-align: center;
+  margin: 0 auto;
+
+
+}
+body{
+  background-image: url(./img/js.jpg);
+  color: white;
+  font-family: 'Chilanka', cursive;
+}
+.title{
+  font-size: 30px;
+}
+.numQ{
+  color:#aaa
+}
+
+.menu {
+  width: 70%;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  display: block;
+  color: inherit;
+  margin: 20px;
+  padding: 10px;
+  text-shadow: 0 0 5px white;
+  border-bottom: 1px solid black
+}
+a:hover{
+  text-shadow: none;
+
+}
+.answer{
+  cursor: pointer;
+  padding: 10px;
+  background: linear-gradient(#eee9, #aaa9);
+  display: inline-block;
+  width: 60%;
+  box-shadow: none;
+
+}
+.answer:hover{
+  box-shadow: 0 0 10px white;
+}
+.list{
+  border: none;
+  background-color: #f999
+}
